@@ -46,6 +46,7 @@
         width: 100vw;
         background-image: url(https://thismatters.agency/cdn-cgi/image/quality=90,gravity=auto,sharpen=1,metadata=none,format=auto,onerror=redirect/wp-content/uploads/2023/08/pattern.svg);
     background-position: left top;
+
         background-color: #F4F6F9;
         display: flex;
         flex-direction: column;
@@ -54,6 +55,9 @@
         /* justify-content: center; */
     }
     .iframe {
+
+        width: 100%;
+        height: 100%;
         position: absolute;
         z-index: 1;
     }
@@ -163,4 +167,21 @@
         -webkit-mask-composite: xor;
           mask-composite: exclude; 
     }
+
+    @media only screen and (max-width: 600px) {
+    .logo {
+        margin-left: 16px;
+    }
+    .btn-small {
+        margin-right: 16px;
+    }
+    ul {
+        display: none;    
+    }
+    .text-info {
+        margin-top: 474px;
+        padding: 0 16px;
+    }
+    
+}
 </style>
