@@ -44,6 +44,8 @@
         -webkit-font-smoothing: antialiased;
         height: 100vh;
         width: 100vw;
+        background-image: url(https://thismatters.agency/cdn-cgi/image/quality=90,gravity=auto,sharpen=1,metadata=none,format=auto,onerror=redirect/wp-content/uploads/2023/08/pattern.svg);
+    background-position: left top;
         background-color: #F4F6F9;
         display: flex;
         flex-direction: column;
