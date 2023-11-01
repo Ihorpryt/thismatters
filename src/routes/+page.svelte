@@ -169,6 +169,9 @@
     }
 
     @media only screen and (max-width: 600px) {
+        .iframe {
+            top: -48px;
+        }
     .logo {
         margin-left: 16px;
     }
@@ -179,7 +182,7 @@
         display: none;    
     }
     .text-info {
-        margin-top: 400px;
+        margin-top: 375px;
         padding: 0 16px;
     }
     
