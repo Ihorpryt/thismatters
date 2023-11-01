@@ -179,7 +179,7 @@
         display: none;    
     }
     .text-info {
-        margin-top: 474px;
+        margin-top: 400px;
         padding: 0 16px;
     }
     
