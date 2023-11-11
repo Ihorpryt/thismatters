@@ -18,12 +18,14 @@
             <div class="btn-small">Kontakt</div>
          </div>
     </div>
+
+    
     <div class="iframe">
         <spline-viewer url="https://prod.spline.design/MuZEsEJvvXlaJmd5/scene.splinecode"></spline-viewer>
     </div>
 
     <div class=text-info>
-        <h3>Hmmm, that page doesn’t exist</h3>
+        <h3>Hmmm, that page doesn't exist</h3>
         <p>Head over to our homepage that definitely exists</p>
         <a href="#">
         <div class="btn">Back to Home</div>
@@ -36,12 +38,8 @@
 
 
 <style>
-    a {
-        text-decoration: none;
-    }
     .content{
         font-family: 'Inter', sans-serif;
-        -webkit-font-smoothing: antialiased;
         height: 100vh;
         width: 100vw;
         background-image: url(https://thismatters.agency/cdn-cgi/image/quality=90,gravity=auto,sharpen=1,metadata=none,format=auto,onerror=redirect/wp-content/uploads/2023/08/pattern.svg);
