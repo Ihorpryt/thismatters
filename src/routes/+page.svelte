@@ -31,7 +31,7 @@
     <div class=text-info>
         <h3>Hmmm, that page doesn't exist</h3>
         <p>Head over to our homepage that definitely exists</p>
-        <a href="#">
+        <a href="http://example.com">
         <div class="btn">Back to Home</div>
         </a>
     </div>

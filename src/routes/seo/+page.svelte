@@ -1,28 +1,8 @@
 <script>
-    import {onMount} from 'svelte';
-    import lottie from 'lottie-web';
-
     import BtnLink from "../Btn-link.svelte";
     import Menu from "../Menu.svelte";
     import '../styles.css';
-
-
-    let animationContainer
-
-    onMount(() => {
-
-        if (!animationContainer) return
-
-        lottie.loadAnimation({
-            container: animationContainer, 
-            renderer: 'svg',
-            loop: true,
-            autoplay: true,
-            path: 'src/routes/seo/SEO.json' 
-        })
-
-    })
-
+    import SeoAnimation from '../SeoAnimation.svelte';
 
 </script>
 
@@ -45,10 +25,7 @@
         </div>
         </div>
         <div class="right-side">
-            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
-            <!-- <lottie-player src="src/routes/seo/SEO.json" background="transparent" speed="1" class="lottie" direction="1" mode="normal" loop autoplay></lottie-player> -->
-            <!-- <lottie-player src={jsonData} background="transparent" speed="1" class="lottie" direction="1" mode="normal" loop autoplay></lottie-player> -->
-            <div bind:this={animationContainer}></div>
+            <SeoAnimation />
         </div>
     </div>
 
@@ -123,10 +100,10 @@
         /* justify-content: center; */
     }
 
-    .lottie {
+    /*.lottie {
         width: 583px;
         height: 642px;
-    }
+    }*/
     
     .text-info {
         margin-top:48px;

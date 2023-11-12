@@ -2,7 +2,7 @@
     export let text = 'text';
 </script>
 
-<a href="#">
+<a href="http://example.com">
     <div class="link-btn accented-body-s">
         {text}
     </div>
