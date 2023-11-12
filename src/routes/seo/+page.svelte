@@ -197,9 +197,9 @@
         .lottie {
         width: 100%;
         }
-        /* .right-side {
+        .right-side {
             display: none;
-        } */
+        }
         .posts {
             padding: 0 16px;
         }
