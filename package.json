@@ -19,6 +19,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@lottiefiles/svelte-lottie-player": "^0.3.0"
+		"@lottiefiles/svelte-lottie-player": "^0.3.0",
+		"lottie-web": "^5.12.2",
+		"svelte-lottie": "^0.0.0"
 	}
 }

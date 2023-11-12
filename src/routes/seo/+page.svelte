@@ -1,7 +1,27 @@
 <script>
+    import {onMount} from 'svelte';
+    import lottie from 'lottie-web';
+
     import BtnLink from "../Btn-link.svelte";
     import Menu from "../Menu.svelte";
     import '../styles.css';
+
+
+    onMount(() => {
+
+        const container = document.getElementById('lottie-container')
+        if (!container) return
+
+        lottie.loadAnimation({
+            container, 
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            path: 'src/routes/seo/SEO.json' 
+        })
+
+    })
+
 
 </script>
 
@@ -24,8 +44,10 @@
         </div>
         </div>
         <div class="right-side">
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player src="https://github.com/Ihorpryt/thismatters/blob/main/src/routes/seo/SEO.json" background="transparent" speed="1" class="lottie" direction="1" mode="normal" loop autoplay></lottie-player>
+            <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
+            <!-- <lottie-player src="src/routes/seo/SEO.json" background="transparent" speed="1" class="lottie" direction="1" mode="normal" loop autoplay></lottie-player> -->
+            <!-- <lottie-player src={jsonData} background="transparent" speed="1" class="lottie" direction="1" mode="normal" loop autoplay></lottie-player> -->
+            <div id="lottie-container"></div>
         </div>
     </div>
 
@@ -175,9 +197,9 @@
         .lottie {
         width: 100%;
         }
-        .right-side {
+        /* .right-side {
             display: none;
-        }
+        } */
         .posts {
             padding: 0 16px;
         }

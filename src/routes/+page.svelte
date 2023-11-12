@@ -1,3 +1,7 @@
+<script>
+    import './styles.css';
+</script>
+
 <div class="content">
 
     <div class="menu">
