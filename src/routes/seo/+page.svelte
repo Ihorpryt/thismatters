@@ -195,9 +195,9 @@
         .text-info {
             flex-direction: column;
         }  
-        .lottie {
+        /* .lottie {
         width: 100%;
-        }
+        } */
         .right-side {
             display: none;
         }
